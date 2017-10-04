@@ -28,7 +28,7 @@ function httpGetAsync(theUrl, callback)
 
 var cod = getUrlVars()["cod"];
 var name = getUrlVars()["name"];
-httpGetAsync("http://api.megasharedfile.xyz/direct/?staticwebsite=true&cod="+cod+"&name=" + name, fRedireciona);
+httpGetAsync("https://cloudshared.space/direct/?staticwebsite=true&cod="+cod+"&name=" + name, fRedireciona);
 
 function fRedireciona(url){
 	window.location.href= url;
